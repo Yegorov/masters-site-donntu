@@ -1,12 +1,16 @@
 Server for masters site DonNTU
 ==============================
 
+## Description
+
+Node.JS Server for local development
+
 ## How use
 
 ```bash
 # install nodejs and npm
 $ git clone git@github.com:Yegorov/masters-site-donntu.git
-$ cd masters-site-server-donntu
+$ cd masters-site-donntu
 $ npm install
 $ node ./server.js
 # Open url http://localhost:3000

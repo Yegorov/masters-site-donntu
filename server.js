@@ -10,6 +10,7 @@ function setHeaders(res, path) {
         // res.setHeader('Cache-Control', 'public, max-age=0')
         res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate')
     }
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate')
 }
 
 app.use(serveStatic('public', {
