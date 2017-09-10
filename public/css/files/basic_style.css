@@ -1,7 +1,7 @@
 /* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
 
 body {  /* Тело документа */
-	background-image: url('../images/bg1.png');
+	background-image: url('../../images/bg1.png');
   margin-bottom: 20pt;  	
 }
 
