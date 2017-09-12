@@ -17,6 +17,12 @@ $ node ./server.js
 # Change the contents of the files in the public folder
 ```
 
+#### WARNING!
+
+All files in `public` folder have windows-1251 encoding.
+
+## License
+
 The site template is taken from [masters.donntu.org](http://masters.donntu.org/template/index.htm)
 
 License (MIT) Copyright (c) 2017 Yegorov A. <yegorov0725@yandex.ru>
