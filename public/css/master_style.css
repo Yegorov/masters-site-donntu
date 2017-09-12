@@ -3,11 +3,20 @@
 
 /* ÊÎÌÏÎÍÎÂÊÀ ÑÒĞÀÍÈÖÛ*/
 @import "files/layout_1col.css";
-/*@import "files/layout_2col_left.css";*/ 
+/*@import "files/layout_2col_left.css";*/
 /*@import "files/layout_2col_right.css";*/
 
 /* ÖÂÅÒÎÂÀß ÑÕÅÌÀ */
-/*@import "files/color_08_orange.css";*/ 
+/*@import "files/color_08_orange.css";*/
 
+/* My Style */
 
-
+#wrap {
+  position: relative;
+  width: 900px;
+  height: auto;
+  margin: 10px auto 0;
+  border: solid #000 2px;
+  border-radius: 5px;
+  z-index: 5;
+}
