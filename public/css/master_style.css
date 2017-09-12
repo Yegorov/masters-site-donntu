@@ -1,6 +1,7 @@
 /* ÁÀÇÎÂÛÉ ÑÒÈËÜ */
 @import "files/basic_style.css";
 
+
 /* ÊÎÌÏÎÍÎÂÊÀ ÑÒĞÀÍÈÖÛ*/
 @import "files/layout_1col.css";
 /*@import "files/layout_2col_left.css";*/
@@ -12,11 +13,30 @@
 /* My Style */
 
 #wrap {
+  background: #fff;
   position: relative;
   width: 900px;
   height: auto;
-  margin: 10px auto 0;
-  border: solid #000 2px;
+  margin: 10px auto 10px;
+  border: solid #c4c9d1 2px;
   border-radius: 5px;
   z-index: 5;
 }
+
+#headertext {
+  padding-left: 210px;
+}
+
+#headertext h1.hdr {
+  margin-top: 0px;
+}
+
+#maintext h1 {
+  margin-top: 10px;
+}
+
+#menu {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
