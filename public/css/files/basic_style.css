@@ -42,16 +42,19 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
 
 #header h1 { /* ФИО в шапке*/
   text-align: left;
-  font: bold 18pt Century Gothic, serif;
+  /*font: bold 18pt Century Gothic, serif;*/
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18pt;
+  color: black;
   line-height: 90%;
   padding: 4pt 0pt 0pt 0pt;
   margin-top: 10pt;
 }
 
 #header h2 { /* Тема работы в шапке*/
-  font: bold 16pt Century Gothic, serif;
+  font: bold 16pt Arial, serif;
   line-height: 90%;
-  color: navy;
+  color: black;
   text-indent: 0pt;
   margin: 0pt;
   padding: 5pt 0pt 10pt 0pt;
@@ -60,7 +63,7 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
 #header h3 { /* Факультет, кафедра, преподаватель в шапке*/
   font: 14pt Century Gothic, serif;
   line-height: 100%;
-  color: navy;
+  color: #626265;
   text-indent: 0pt;
   margin: 0pt;
   padding: 5pt 0pt 10pt 0pt;
@@ -128,7 +131,7 @@ a:hover { /* Курсор наведен на ссылку */
 }
 
 a:visited { /* Посещенная ссылка */
-	color: #915c9e;
+	color: #337ab7;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */

@@ -11,7 +11,9 @@
 /*@import "files/color_08_orange.css";*/
 
 /* My Style */
-
+html {
+  min-width: 1120px;
+}
 #wrap {
   background: #fff;
   position: relative;
@@ -40,3 +42,12 @@
   padding-top: 5px;
 }
 
+a[href='#top'] {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+a.black:visited {
+  color: #333;
+}
