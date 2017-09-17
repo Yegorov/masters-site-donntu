@@ -51,3 +51,8 @@ a[href='#top'] {
 a.black:visited {
   color: #333;
 }
+
+.anchorjs-link {
+  font: 18pt "Segoe UI", serif;
+  color: black !important;
+}

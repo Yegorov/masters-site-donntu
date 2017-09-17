@@ -13,6 +13,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/anchor.min.js"></script>
     <script type="text/javascript">
         lightbox.option({
           'resizeDuration': 200,
@@ -34,6 +35,12 @@
                     top.hide();
                 }
             });
+            anchors.options = {
+                placement: 'right',
+                visible: 'hover',
+                icon: '¶'
+            };
+            anchors.add('.anchored');
         });
     </script>
 </head>
@@ -131,7 +138,11 @@
                     </tr>
                     <tr class=odd>
                         <td class=c1>Опыт работы</td>
-                        <td class=c2>Если магистр имеет опыт работы (например, при прохождении практики), то указывается предприятие, должность и сроки работы.</td>
+                        <td class=c2>
+                            <ul>
+                                <li>2017 - Rocket Science, backend web-developer</li>
+                            </ul>
+                        </td>
                     </tr>
                     <tr class=even>
                         <td class=c1>Планы на будущее</td>
